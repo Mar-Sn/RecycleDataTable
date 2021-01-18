@@ -32,7 +32,7 @@ function genExecution(name, input, output, lib = "") {
             extensions: ['.ts', '.js']
         },
         output: {
-            filename: debug ? name + '.js' : name + '.js',
+            filename: debug ? name + '.js' : name + '.min.js',
             path: path.resolve(__dirname, output),
         },
         plugins: [new ForkTsCheckerWebpackPlugin({

@@ -1,1 +1,9 @@
 /node_modules/
+/.idea/
+
+.env
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db

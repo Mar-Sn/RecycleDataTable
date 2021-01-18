@@ -54,5 +54,6 @@ function genExecution(name, input, output, lib = "") {
 }
 
 module.exports = [
-    genExecution("table", '/src/Table.ts', "./dist", 'Table')
+    genExecution("table", '/src/Table.ts', "./dist", 'Table'),
+    genExecution("jsonTableExample", '/src/example/JsonTableExample.ts', "./dist/example")
 ];
